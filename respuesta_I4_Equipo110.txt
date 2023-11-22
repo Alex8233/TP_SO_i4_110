@@ -1,15 +1,37 @@
 A- ¿Qué color de fondo tiene su página en el TESTING ?
 
-BLUE
+BLUE.
 
 B- ¿Qué color de fondo tiene su página en el DESARROLLO ?
 
-YELLOW
+YELLOW.
 
 C- ¿Qué color de fondo tiene su página en el MASTER?
 
-YELLOW
+YELLOW.
 
 D- ¿Qué favicon quedó en el MASTER el de ALFA o el de BETA?
 
-El de BETA
+El de BETA.
+
+E- ¿Algún integrante tuvo problemas al hacer el push?
+
+Si, a BETA.
+
+F- ¿Qué problemas surgieron?
+
+A BETA le pidio hacer un pull antes de hacer el push.
+
+G- ¿Qué soluciones pueden aplicar y cual seria la consecuencia de cada solución adoptada?
+
+Se podria hacer un push -f lo cual pisa lo que agrega el que hizo el push primero.
+Tambien se podria hacer un pull y despues hacer un push, lo cual hace que te fuerce a hacer un merge.
+
+H- ¿Qué sucede si cada uno utiliza el push -f?
+
+La persona que hizo el push despues pisa los cambios del que hizo push antes.
+
+I- ¿Qué debo hacer para que el index.html tengas todos los <p> de los puntos 18,19 y 20
+en DESARROLLO ?
+
+Cada integrante tiene que hacer el pull del push que hizo el otro integrante y agregar los datos sin borrar lo de los otros integrantes.
